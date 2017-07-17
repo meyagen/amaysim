@@ -1,6 +1,6 @@
 The `/src` directory houses all the source files, while `/tests` houses the unit tests.
 
-`/tests/ShoppingCartScenariosSpec.rb` runs all the scenario tests from the exercise specifications.
+`/tests/shopping_cart_spec.rb` runs all the scenario tests from the exercise specifications.
 
 ## Setting up
 
@@ -68,8 +68,8 @@ You can also run the individual tests from the terminal.
 ```bash
 $ cd /path/to/amaysim/tests
 
-$ ruby PricingRulesUnitTest.rb
-$ ruby ShippingCartScenariosSpec.rb
-$ ruby ShoppingCartUnitTest.rb
-$ ruby SimCardUnitTest.rb
+$ ruby pricing_rules_test.rb
+$ ruby shopping_cart_spec.rb
+$ ruby shopping_cart_test.rb
+$ ruby sim_card_test.rb
 ```
